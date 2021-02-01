@@ -1,0 +1,153 @@
+header, main, footer{
+  max-width: 1000px;
+  width:100%;
+  margin:20px auto;
+}
+
+header nav{
+background: #0400ff;
+  display:block;
+  overflow: hidden;
+width: 90%;
+}
+header nav:hover{
+  box-shadow:0px 2px 0px #fc008a;
+}
+header nav:visited{
+  text-decoration: line-through;
+}
+header nav:active{
+  box-shadow: none;
+}
+
+header nav ul{
+  list-style:none;
+}
+
+header nav ul li{
+  float: left;
+}
+
+header nav ul li a{
+  padding: 10px 60px;
+  display:block;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  background: rgb(2, 50, 65);
+}
+a:hover{
+  color: #ff0000;
+}
+a{
+  color: rgb(0, 0, 0);
+  
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+header{
+  color: rgb(255, 255, 255);
+}
+body{
+  background-image:url(../img/paisaje-digital-en-atardecer-5846.webp);
+  background-size: 100%;
+  background-attachment: fixed;
+  font-size:20px;
+  font-family:'Times New Roman';
+  text-align: justify;
+}
+header, main, footer{
+  max-width:100%;
+  width:100%;
+  margin:20px;
+}
+form{
+  width:30%;
+  margin: 30px;
+  padding:30px;
+  border: 10px aliceblue groove;
+  background-image:url(../img/Fondo-pantalla-8.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+label{
+  font-size:20px;
+  display: inline-block;
+  width:100%;
+  color: red;
+}
+input, textarea{
+  width:90%;
+  padding:10px;
+  margin-bottom:20px;
+  border:2px inset red;
+  box-sizing: border-box;
+}
+input:focus, textarea:focus{
+  border: 2px solid #0400ff;
+}
+textarea{
+  resize: vertical;
+  max-height: 300px;
+  min-height: 100px;
+}
+select{
+  width:50%;
+  background-color: rgb(0, 255, 200);
+  padding:10px;
+}
+button[type="submit"]{
+  background: rgb(0, 255, 200);
+  color:#000000;
+  border: ridge;
+  padding:10px;
+  margin-top:30px;
+  width:41%;
+  margin-top:15px;
+  display: inline-block;
+}
+button[type="reset"]{
+  background: rgb(0, 255, 200);
+  color:#000000;
+  border: ridge;
+  padding:10px;
+  margin-top:30px;
+  width:49%;
+  margin-top:15px;
+  display: inline-block;
+}
+button[type="submit"]:hover{
+  background: rgb(6, 145, 114);
+  color:#ffffff;
+  cursor:pointer;
+  display: inline-block;
+}
+button[type="reset"]:hover{
+  background: rgb(6, 145, 114);
+  color:#ffffff;
+  cursor:pointer;
+  display: inline-block;
+}
+p{
+  color: red;
+  border: 10px aliceblue groove;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background:linear-gradient(to right, rgb(4, 0, 255) 0%, rgb(0, 47, 255) 9%, rgba(43,43,43,1) 24%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 61%, rgba(102,102,102,1) 75%, rgba(0, 47, 255) 88%, rgba(4, 0, 255) 100%);
+  width: 90%;
+}
+
+
+footer{
+
+  color:#fff;
+  clear: both;
+  padding: 10px 0px;
+  text-align: center;
+  width:100%;
+
+} 

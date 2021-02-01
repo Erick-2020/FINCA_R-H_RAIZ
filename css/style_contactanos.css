@@ -1,0 +1,150 @@
+ /*contenido*/
+
+  #titulo1{
+  border:double rgb(5, 155, 117);
+  padding:10px;
+  scroll-padding-top: 10px;
+  display: inline-block;
+  width: 972px;
+  text-align-last: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:x-large;
+  color:orangered;
+  text-align: center;
+  background-color:rgb(91, 201, 106);
+  }
+
+#texto{
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: rgb(255, 255, 255);
+width: 50%;
+margin-left: 25%;
+}
+
+ /*diseño formulario*/
+#formulario *{
+  font-family:'Times New Roman', Times, serif;
+  color:#Fff;
+  font-size:small;
+  
+}
+.formu *{
+  border: solid transparent;
+  border-radius: 6px;
+  padding: 0%;
+  margin-top: 0px;
+  background-color:rgba(252, 172, 0, 0.945);
+  margin-left: 15px;
+  float: left;
+  
+}
+.formu label *{ /*texto*/
+  display: inline-block; 
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  text-align:right;
+  background-color: rgba(252, 172, 0, 0.945);
+}
+.formu div{ /*separa las cajas un poco */
+  margin-top:3px;
+  margin-bottom:5px;
+  margin-left: 25%;
+  
+}  
+
+.formu input[type='text'], .formu textarea{ /*espacio para responder*/
+  padding: 5px 5px; 
+  width: 90%; 
+  border: none;
+  resize: none;
+  margin-left: 15px;
+  background-color: rgb(105, 93, 93);
+  display: inline-block;
+}
+
+.formu input[type='email']{ /*espacio para responder*/
+  padding: 5px 5px; 
+  width: 90%; 
+  border: none;
+  resize: none;
+  margin-left: 15px;
+  background-color: rgb(105, 93, 93);
+  display: inline-block;
+}
+.formu input[type="checkbox"]{
+  padding: 50px 50px; 
+  width: 50px; 
+  margin-left: 15px;
+}
+.formu select{
+  padding: 5px 5px; 
+  width: 460px; 
+  background-color:rgb(211, 188, 211);
+  margin-left: 15px;
+}
+.formu input[type='radio']{ 
+  width: 15%;
+}
+
+/*boton de enviar*/
+button[type='submit'],.formu button[type='reset'] { /* normal */
+  border-radius: 10px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(left, #636362 0%,rgba(252, 172, 0, 0.945) 100%);
+  width: 90%;
+  border: 1px;  }
+ button[type='submit']:hover,.formu button[type='reset']:hover{ /* el mouse por encima */
+  background: #3FAF99;
+  background: -webkit-linear-gradient(left, #636362 0%,#76b940 100%);
+ }
+  
+ button[type='submit']:active,.formu button[type='reset']:active{ /* seleccion con click */
+  background: #b9e9f0;
+  background: -webkit-linear-gradient(left, #9ee2eb 0%,#cdeeb3 100%);
+  }
+
+#clic_si_es_nuevo{
+  color: rgb(55, 101, 253); 
+  background-color: rgb(240, 238, 238); 
+  width:50; 
+}
+
+  /*TABLA DE REDES SOCIALES*/ 
+ table{
+  border-right-style: dotted;
+  border-left-style: dotted;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-color: tomato;
+  /* margin-left: 53px; */
+  width: 100%;
+  /* text-align: center; */
+
+ }
+ 
+  /*inicia footer*/
+footer{
+background-color: wheat;
+height: 150px;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
+footer img{
+    float:right;
+  }
+footer a{
+      display: block;
+      padding: 10px 120px;
+      text-decoration:none;
+      background-color:rgba(3, 173, 94, 0.945);
+      color: white;
+      text-align: center;
+  }
+footer a:hover{
+  background-color: yellowgreen;
+  color:black;
+  }
+
+
